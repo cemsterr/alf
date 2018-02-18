@@ -19,7 +19,7 @@ const ImageHeader = props => (
 
 class ProfileScreen extends Component {
   static navigationOptions = ({ navigation, screenProps }) => ({
-    title: 'Review Jobs',
+    title: 'Profile',
     header: (props) => <ImageHeader {...props} />,
     headerTitleStyle: { color: 'rgba(255,255,255,1)' },
     headerRight: (
